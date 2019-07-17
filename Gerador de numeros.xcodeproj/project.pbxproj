@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1769DE5222BA5039007F361B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769DE5122BA5039007F361B /* AppDelegate.swift */; };
+		1769DE5422BA5039007F361B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769DE5322BA5039007F361B /* ViewController.swift */; };
+		1769DE5722BA5039007F361B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1769DE5522BA5039007F361B /* Main.storyboard */; };
+		1769DE5922BA503B007F361B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1769DE5822BA503B007F361B /* Assets.xcassets */; };
+		1769DE5C22BA503B007F361B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1769DE5A22BA503B007F361B /* LaunchScreen.storyboard */; };
+		17E0001A22BC6D2A00722985 /* coffe-inicio.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 17E0001922BC6D2A00722985 /* coffe-inicio.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1769DE4E22BA5039007F361B /* Gerador de numeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gerador de numeros.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1769DE5122BA5039007F361B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1769DE5322BA5039007F361B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1769DE5622BA5039007F361B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1769DE5822BA503B007F361B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1769DE5B22BA503B007F361B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1769DE5D22BA503B007F361B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E0001922BC6D2A00722985 /* coffe-inicio.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coffe-inicio.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1769DE4B22BA5039007F361B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1769DE4522BA5039007F361B = {
+			isa = PBXGroup;
+			children = (
+				17E0001922BC6D2A00722985 /* coffe-inicio.jpeg */,
+				1769DE5022BA5039007F361B /* Gerador de numeros */,
+				1769DE4F22BA5039007F361B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1769DE4F22BA5039007F361B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1769DE4E22BA5039007F361B /* Gerador de numeros.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1769DE5022BA5039007F361B /* Gerador de numeros */ = {
+			isa = PBXGroup;
+			children = (
+				1769DE6322BA5055007F361B /* Model */,
+				1769DE6422BA5068007F361B /* View */,
+				1769DE5322BA5039007F361B /* ViewController.swift */,
+				1769DE6522BA50A5007F361B /* Controller */,
+				1769DE5822BA503B007F361B /* Assets.xcassets */,
+				1769DE5D22BA503B007F361B /* Info.plist */,
+			);
+			path = "Gerador de numeros";
+			sourceTree = "<group>";
+		};
+		1769DE6322BA5055007F361B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1769DE5522BA5039007F361B /* Main.storyboard */,
+				1769DE5A22BA503B007F361B /* LaunchScreen.storyboard */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1769DE6422BA5068007F361B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1769DE5122BA5039007F361B /* AppDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1769DE6522BA50A5007F361B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1769DE4D22BA5039007F361B /* Gerador de numeros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1769DE6022BA503B007F361B /* Build configuration list for PBXNativeTarget "Gerador de numeros" */;
+			buildPhases = (
+				1769DE4A22BA5039007F361B /* Sources */,
+				1769DE4B22BA5039007F361B /* Frameworks */,
+				1769DE4C22BA5039007F361B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gerador de numeros";
+			productName = "Gerador de numeros";
+			productReference = 1769DE4E22BA5039007F361B /* Gerador de numeros.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1769DE4622BA5039007F361B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = amanda.merien.silva;
+				TargetAttributes = {
+					1769DE4D22BA5039007F361B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1769DE4922BA5039007F361B /* Build configuration list for PBXProject "Gerador de numeros" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1769DE4522BA5039007F361B;
+			productRefGroup = 1769DE4F22BA5039007F361B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1769DE4D22BA5039007F361B /* Gerador de numeros */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1769DE4C22BA5039007F361B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E0001A22BC6D2A00722985 /* coffe-inicio.jpeg in Resources */,
+				1769DE5C22BA503B007F361B /* LaunchScreen.storyboard in Resources */,
+				1769DE5922BA503B007F361B /* Assets.xcassets in Resources */,
+				1769DE5722BA5039007F361B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1769DE4A22BA5039007F361B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1769DE5422BA5039007F361B /* ViewController.swift in Sources */,
+				1769DE5222BA5039007F361B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1769DE5522BA5039007F361B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1769DE5622BA5039007F361B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1769DE5A22BA503B007F361B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1769DE5B22BA503B007F361B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1769DE5E22BA503B007F361B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1769DE5F22BA503B007F361B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1769DE6122BA503B007F361B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gerador de numeros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Accenture.Merien.Gerador-de-numeros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1769DE6222BA503B007F361B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gerador de numeros/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Accenture.Merien.Gerador-de-numeros";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1769DE4922BA5039007F361B /* Build configuration list for PBXProject "Gerador de numeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1769DE5E22BA503B007F361B /* Debug */,
+				1769DE5F22BA503B007F361B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1769DE6022BA503B007F361B /* Build configuration list for PBXNativeTarget "Gerador de numeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1769DE6122BA503B007F361B /* Debug */,
+				1769DE6222BA503B007F361B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1769DE4622BA5039007F361B /* Project object */;
+}
